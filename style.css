@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.box{
+    width: 350px;
+    height:590px;
+    margin: 5px;
+    text-align: center;
+    flex-direction: column;
+    border: 1px solid white;
+    position: relative;
+    border-radius: 2px;
+    background-image: linear-gradient( 135deg, #81FBB8 50%, #28C76F 10%);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+i{
+    font-size: 30px;
+    margin: 5px;
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+    top: 430px;
+    transition: 500ms ease;
+}
+#share{
+    font-size: 30px;
+    margin: 5px;
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+    top: 550px;
+}
+#comment{
+    font-size: 30px;
+    margin: 5px;
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+    top: 490px;
+}
+button{
+    padding: 5px;
+    margin: 1px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 490px;
+    left: 10px;
+    top: 10px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-image: linear-gradient( 135deg, #F97794 100%, #623AA2 10%);
+}
+img{
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    margin: 5px;
+    top: 530px;
+}
+p{
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    margin: 5px;
+    top: 540px;
+}
